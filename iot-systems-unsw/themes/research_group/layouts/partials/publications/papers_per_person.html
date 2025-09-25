@@ -17,7 +17,7 @@
 <h3> Publications </h3>
 <ul>
     {{ range (($papers.ByParam "authors").Reverse.ByParam "year").Reverse }}
-    <li> {{- partial "gen_bib.html" . -}} </li>
+    <li> {{- partial "publications/gen_bib.html" . -}} </li>
     {{ end }}
 </ul>
 {{ end }}

@@ -1,6 +1,6 @@
 ---
-title: "Publications - AGNT @ UofSC"
-description: "Research publications the Algebra, Geometry, and Number Theory group at the Univesity of South Carolina"
+title: "Publications"
+description: "Research publications"
 draft: false
 katex: true
 nav: Publications

@@ -31,7 +31,7 @@
       <tr {{ if eq (mod $j 2) 0 }}
             style="background-color: rgba(211,211,211,.3);"
           {{ end }} class="accordion-toggle collapsed text-center" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ $i }}" aria-expanded="false" aria-controls="flush-collapse{{ $i }}">
-        <td> {{- partial "gen_bib.html" . -}} </td>
+        <td> {{- partial "publications/gen_bib.html" . -}} </td>
         <td></td>
       </tr>
       <tr>
@@ -78,7 +78,7 @@
         <tr {{ if eq (mod $l 2) 0 }}
             style="background-color: rgba(211,211,211,.3);"
             {{ end }} >
-        <td> {{ .Params.firstauthorlast }} {{- partial "gen_bib.html" . -}} </td>
+        <td> {{ .Params.firstauthorlast }} {{- partial "publications/gen_bib.html" . -}} </td>
         <td class="accordion-header" id="flush-heading{{ $i }}"><div class="accordion-toggle collapsed text-center" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ $i }}" aria-expanded="false" aria-controls="flush-collapse{{ $i }}"></div></td>
       </tr>
       <tr>

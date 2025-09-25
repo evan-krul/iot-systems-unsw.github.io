@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IoT Systems UNSW</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on IoT Systems UNSW</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/blog/welcome/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/welcome/</guid>
+      <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome!&lt;/h2&gt;&#xA;&lt;p&gt;Welcome to the research blog of the Algebra, Geometry, and Number Theory group at the University of South Carolina. We hope to use this space to share some knowledge and make connections with people near and far.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Course - AGNT @ UofSC</title>
+      <link>http://localhost:1313/courses/10975/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/10975/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Course - AGNT @ UofSC</title>
+      <link>http://localhost:1313/courses/42478/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/42478/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Erik Buccholz</title>
+      <link>http://localhost:1313/team/people/buccholz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/buccholz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Evan Krul</title>
+      <link>http://localhost:1313/team/people/krul/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/krul/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hassan Ali</title>
+      <link>http://localhost:1313/team/people/ali_hassan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/ali_hassan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Khoa Tran</title>
+      <link>http://localhost:1313/team/people/tran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/tran/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lihua Wang</title>
+      <link>http://localhost:1313/team/people/wang_lihua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/wang_lihua/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meghali Nandi</title>
+      <link>http://localhost:1313/team/people/nandi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/nandi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mohammad Majid Akhtar</title>
+      <link>http://localhost:1313/team/people/akhtar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/akhtar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nicholas D&#39;Silva</title>
+      <link>http://localhost:1313/team/people/dsilva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/dsilva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nimesha Wickramasinghe</title>
+      <link>http://localhost:1313/team/people/wickramasinghe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/wickramasinghe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Siriboon Chaisawat</title>
+      <link>http://localhost:1313/team/people/chaisawat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/chaisawat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xinzhang Chen</title>
+      <link>http://localhost:1313/team/people/chen_xinzhang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/chen_xinzhang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yunrui Zhang</title>
+      <link>http://localhost:1313/team/people/zhang_yunrui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/people/zhang_yunrui/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
