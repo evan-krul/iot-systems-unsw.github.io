@@ -14,7 +14,9 @@
 {{ with .Params.advisors }}
 <b>Advisors:</b> {{ delimit . ", "}} <br>
 {{ end }}
- Joined in {{ (time .Params.start_date).Year }} <br>
+{{ if .Params.start_date }} 
+Joined in {{ (time .Params.start_date).Year }} <br>
+{{ end }}
 {{ if and .Params.homepage .Params.email }}
 <a href="{{.Params.homepage}}">Homepage</a> &middot; <a href="mailto:{{.Params.emails}}"?>Email</a><br> 
 {{ else if .Params.email }} 

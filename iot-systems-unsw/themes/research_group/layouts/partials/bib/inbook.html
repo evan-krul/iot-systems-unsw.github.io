@@ -1,7 +1,7 @@
 {{ $bib := slice }}
 {{ $authors := slice }}
 {{ range .Params.authors }}
-    {{ $authors = $authors | append (printf "<b>%s %s</b>" .first .last) }}
+    {{ $authors = $authors | append (printf "<b>%s %s</b>" .first .last) }}}
 {{ end }}
 {{ with $authors }}
     {{ $bib = $bib | append (delimit . ", " " and ") }}
@@ -9,22 +9,15 @@
 {{ with .Params.title }}
     {{ $bib = $bib | append (printf "<i>%s</i>" . ) }}
 {{ end }}
-{{ $string := "" }}
-{{ with .Params.booktitle }}
-    {{ $string = printf "%s" . }}
-{{ end }}
-{{- with .Params.address -}}
-    {{ $string = printf "%s (%s)" $string . }}
-{{ end }}
 {{ $editors := slice }}
 {{ range .Params.editors }}
     {{ $editors = $editors | append (printf "%s %s" .first .last) }}
 {{ end }}
 {{ with $editors }}
-    {{ $string = printf "%s (%s ed.)" $string (delimit . ", " " and ") }}
+    {{ $bib = $bib | append (delimit . ", " " and ") }}
 {{ end }}
-{{ if ne $string "" }}
-    {{ $bib = $bib | append $string }}
+{{- with .Params.edition -}}
+    {{ $bib = $bib | append ( printf "%s ed." . )}}
 {{ end }}
 {{- with .Params.series -}}
     {{ $bib = $bib | append . }}
@@ -32,15 +25,21 @@
 {{- with .Params.volume -}}
     {{ $bib = $bib | append (printf "vol %s" . ) }}
 {{- end -}}
-{{ with .Params.organization }}
-    {{ $bib = $bib | append . }}
+{{- with .Params.chapter -}}
+    {{ $bib = $bib | append (printf "ch %s" . ) }}
+{{- end -}}
+{{ with .Params.pages }}
+    {{ $bib = $bib | append (printf "pp. %s" . )}}
 {{ end }}
 {{- with .Params.publisher -}}
     {{ $bib = $bib | append . }}
 {{ end }}
+{{- with .Params.address -}}
+    {{ $bib = $bib | append . }}
+{{ end }}
 {{ $date := "" }}
 {{ with .Params.year }}
-    {{ $date = printf "%s" . }}
+    {{ $date = printf "%d" . }}
 {{ end }}
 {{ with .Params.month }}
     {{ $date = printf "%s %s" . $date }}
@@ -48,13 +47,10 @@
 {{ if $date }}
     {{ $bib = $bib | append $date }}
 {{ end }}
-{{- with .Params.note -}}
-    {{ $bib = $bib | append . }}
-{{- end -}}
-{{ with .Params.pages }}
-    {{ $bib = $bib | append (printf "pp. %s" . )}}
-{{ end }}
 {{ with .Params.isbn }}
     {{ $bib = $bib | append (printf "ISBN: %s" .) }}
 {{ end }}
-{{ delimit $bib ", " }}.
+{{- with .Params.note -}}
+    {{ $bib = $bib | append . }}
+{{- end -}}
+{{ delimit $bib ", " | safeHTML }}.

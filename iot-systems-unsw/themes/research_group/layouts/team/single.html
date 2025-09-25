@@ -2,17 +2,17 @@
 
 <div class="container">
 
-{{ partial "team_header.html" . }}
+{{ partial "team/team_header.html" . }}
 
 {{.Content}}
 
 <hr>
 
-{{ partial "papers_per_person.html" . }}
+{{ partial "publications/papers_per_person.html" . }}
 
-{{ partial "grants_per_person.html" . }}
+<!-- {{ partial "grants_per_person.html" . }} -->
 
-{{ partial "students_per_person.html" . }}
+{{ partial "team/students_per_person.html" . }}
 
 </div>
 

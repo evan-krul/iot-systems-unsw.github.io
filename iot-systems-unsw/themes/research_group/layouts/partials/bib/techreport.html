@@ -9,18 +9,18 @@
 {{ with .Params.title }}
     {{ $bib = $bib | append (printf "<i>%s</i>" . ) }}
 {{ end }}
-{{ with .Params.organization }}
+{{ with .Params.number }}
+    {{ $bib = $bib | append (printf "Tech Report %s" . )}}
+{{ end }}
+{{ with .Params.institution }}
     {{ $bib = $bib | append . }}
 {{ end }}
 {{ with .Params.address }}
     {{ $bib = $bib | append . }}
 {{ end }}
-{{ with .Params.edition }}
-    {{ $bib = $bib | append (printf "%s ed." . ) }}
-{{ end }}
 {{ $date := "" }}
 {{ with .Params.year }}
-    {{ $date = printf "%s" . }}
+    {{ $date = printf "%d" . }}
 {{ end }}
 {{ with .Params.month }}
     {{ $date = printf "%s %s" . $date }}
@@ -31,4 +31,4 @@
 {{ with .Params.note }}
     {{ $bib = $bib | append . }}
 {{ end }}
-{{ delimit $bib ", " }}.
+{{ delimit $bib ", " | safeHTML }}.

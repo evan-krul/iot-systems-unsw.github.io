@@ -36,7 +36,7 @@
 {{ end }}
 {{ $date := "" }}
 {{ with .Params.year }}
-    {{ $date = printf "%s" . }}
+    {{ $date = printf "%d" . }}
 {{ end }}
 {{ with .Params.month }}
     {{ $date = printf "%s %s" . $date }}
@@ -50,4 +50,4 @@
 {{ with .Params.isbn }}
     {{ $bib = $bib | append (printf "ISBN: %s" .) }}
 {{ end }}
-{{ delimit $bib ", " }}.
+{{ delimit $bib ", " | safeHTML }}.

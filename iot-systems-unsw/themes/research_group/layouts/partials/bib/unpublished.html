@@ -4,20 +4,14 @@
     {{ $authors = $authors | append (printf "<b>%s %s</b>" .first .last) }}
 {{ end }}
 {{ with $authors }}
-    {{ $bib = $bib | append ( delimit . ", " " and " ) }}
+    {{ $bib = $bib | append (delimit . ", " " and ") }}
 {{ end }}
 {{ with .Params.title }}
     {{ $bib = $bib | append (printf "<i>%s</i>" . ) }}
 {{ end }}
-{{- with .Params.howpublished -}}
-   {{ $bib = $bib | append . }}
-{{- end -}}
-{{- with .Params.address -}}
-    {{ $bib = $bib | append . }}
-{{- end -}}
 {{ $date := "" }}
 {{ with .Params.year }}
-    {{ $date = printf "%s" . }}
+    {{ $date = printf "%d" . }}
 {{ end }}
 {{ with .Params.month }}
     {{ $date = printf "%s %s" . $date }}
@@ -25,7 +19,7 @@
 {{ if $date }}
     {{ $bib = $bib | append $date }}
 {{ end }}
-{{- with .Params.note -}}
+{{ with .Params.note }}
     {{ $bib = $bib | append . }}
-{{- end -}}
-{{ delimit $bib ", " }}.
+{{ end }}
+{{ delimit $bib ", " | safeHTML }}.

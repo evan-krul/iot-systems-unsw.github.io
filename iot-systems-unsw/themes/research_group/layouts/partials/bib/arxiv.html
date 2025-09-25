@@ -9,9 +9,12 @@
 {{ with .Params.title }}
     {{ $bib = $bib | append (printf "<i>%s</i>" . ) }}
 {{ end }}
+{{ with .Params.arxiv_id }}
+    {{ $bib = $bib | append (print "arXiv: %s" . )}}
+{{ end }}
 {{ $date := "" }}
 {{ with .Params.year }}
-    {{ $date = printf "%s" . }}
+    {{ $date = printf "%d" . }}
 {{ end }}
 {{ with .Params.month }}
     {{ $date = printf "%s %s" . $date }}
@@ -19,7 +22,4 @@
 {{ if $date }}
     {{ $bib = $bib | append $date }}
 {{ end }}
-{{ with .Params.note }}
-    {{ $bib = $bib | append . }}
-{{ end }}
-{{ delimit $bib ", " }}.
+{{ delimit $bib ", " | safeHTML }}.

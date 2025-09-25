@@ -32,4 +32,4 @@
 {{- with .Params.note -}}
     {{ $bib = $bib | append . }}
 {{- end -}}
-{{ delimit $bib ", "}}.
+{{ delimit $bib ", " | safeHTML }}.

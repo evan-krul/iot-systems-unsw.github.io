@@ -7,6 +7,6 @@ class: research associate
 position: Research Associate
 name: 
   first: Erik
-  last: Buccholz
+  last: Buchholz
 photo: erik.jpg
 ---
