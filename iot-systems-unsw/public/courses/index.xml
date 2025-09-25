@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses - AGNT @ UofSC on IoT Systems UNSW</title>
+    <link>http://localhost:1313/courses/</link>
+    <description>Recent content in Courses - AGNT @ UofSC on IoT Systems UNSW</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course - AGNT @ UofSC</title>
+      <link>http://localhost:1313/courses/10975/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/10975/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Course - AGNT @ UofSC</title>
+      <link>http://localhost:1313/courses/42478/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/42478/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
