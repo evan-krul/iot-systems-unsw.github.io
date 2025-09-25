@@ -52,3 +52,7 @@ relativeURLs = true
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap.bundle.min.js"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

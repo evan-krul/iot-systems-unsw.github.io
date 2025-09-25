@@ -1,6 +1,0 @@
-[submodule "iot-systems-unsw/themes/hugo_research_group"]
-	path = iot-systems-unsw/themes/hugo_research_group
-	url = git@github.com:mattrobball/hugo_research_group.git
-[submodule "iot-systems-unsw/themes/ananke"]
-	path = iot-systems-unsw/themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
