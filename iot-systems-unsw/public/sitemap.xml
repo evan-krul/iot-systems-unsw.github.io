@@ -82,6 +82,10 @@
   </url><url>
     <loc>http://localhost:1313/team/people/akhtar/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/news/</loc>
+  </url><url>
+    <loc>http://localhost:1313/news/</loc>
+  </url><url>
     <loc>http://localhost:1313/team/people/dsilva/</loc>
   </url><url>
     <loc>http://localhost:1313/team/people/wickramasinghe/</loc>

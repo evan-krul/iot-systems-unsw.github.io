@@ -79,6 +79,13 @@
       <description>&lt;div class=&#34;text-center&#34;&gt;&#xA;&lt;h2 id=&#34;2021-seminar-schedule&#34;&gt;2021 Seminar Schedule&lt;/h2&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;text-center&#34;&gt;&#xA;&lt;strong&gt;Due to the ongoing COVID-19 pandemic, the AGNT seminar will be meeting virtually until further notice.&lt;/strong&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;For security reasons, meeting info will be shared via the group&amp;rsquo;s &lt;a href=&#34;https://scagnt.zulipchat.com&#34;&gt;Zulip server&lt;/a&gt;. If you want to join the Zulip server, or want the meeting information for a particular talk, contact &lt;a href=&#34;mailto:duncan@math.sc.edu&#34;&gt;Alex Duncan&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>News</title>
+      <link>http://localhost:1313/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/</guid>
+      <description>&lt;p&gt;he&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Publications</title>
       <link>http://localhost:1313/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
